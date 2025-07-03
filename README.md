@@ -27,3 +27,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+IOS Safari / Firefox / chrome connected.
