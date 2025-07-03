@@ -1,0 +1,25 @@
+{
+  "name": "vue-webrtc",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 192.168.50.6",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^2.1.0",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "koa": "^3.0.0",
+    "node-turn": "^0.0.6",
+    "vue": "^3.5.17",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  }
+}
